@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="Ch8_1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Button Content="Button" Click="button1_Click" Height="26" HorizontalAlignment="Left" Margin="108,54,0,0" Name="button1" VerticalAlignment="Top" Width="95" />
+        <Button Content="安装" Visibility="Collapsed"  Click="button2_Click" Height="30" HorizontalAlignment="Left" Margin="108,109,0,0" Name="button2" VerticalAlignment="Top" Width="95" />
+        <TextBlock Height="42" HorizontalAlignment="Left" Margin="108,152,0,0" Name="textBlock1" Text="最新版本" VerticalAlignment="Top" Width="95" />
+    </Grid>
+</UserControl>
